@@ -1,0 +1,138 @@
+/*
+ * GitHub Dark On Atom
+ *
+ * White By Adkinsm
+ *
+ * License By MIT License.
+ *
+ */
+
+ /*
+  *
+  * Atom 组件
+  *
+ */
+
+.tree-view {
+  background-color: #1F2428;
+}
+
+atom-text-editor {
+  color: #dbedff;
+  background-color: #24292E;
+}
+
+atom-text-editor .cursor {
+  border-color: white;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection {
+  color: #e1e4e8;
+}
+
+.tool-panel, .panel, atom-panel {
+  color: #24292E
+}
+
+ /*
+  *
+  * Atom 代码高亮
+  *
+  * 代码高亮参考的是 VSCode 的 GitHub Dark 主题。
+  *
+  * 目前测试了的语言有:
+  *
+  * JavaScript,Python,HTML,CSS,YML,C,JSON,EJS,PHP,Markdown,SQL.
+  *
+  * 由于 VSCode 与 Atom 代码高亮机制不同，产生不同的效果也较为正常。
+  *
+ */
+
+.syntax--comment  {
+  font-style: normal;
+  color: #6a737d;
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #85e89d;
+}
+
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #b392f0
+}
+
+.syntax--string,
+.syntax--constant,
+.syntax--markup.syntax--link {
+  color: #9ecbff;
+}
+
+.syntax--source.syntax--css .syntax--property-name.syntax--support, .syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #79b8ff;
+}
+
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #f97583;
+}
+
+.syntax--source.syntax--css .syntax--constant.syntax--numeric {
+  color: #9ecbff;
+}
+
+.syntax--text,
+.syntax--punctuation {
+  color: #dbedff;
+}
+
+.syntax--meta.syntax--tag {
+  color: #85e89d;
+}
+
+.syntax--storage {
+  color: #f97583;
+}
+
+.syntax--variable.syntax--parameter {
+  color: #ffab70;
+}
+
+.syntax--support.syntax--variable {
+  color: #79b8ff;
+}
+
+.syntax--keyword.syntax--operator {
+  color: #f97583;
+}
+
+.syntax--source.syntax--css .syntax--constant {
+  color: #79b8ff;
+}
+
+.syntax--constant.syntax--numeric {
+  color: #79b8ff;
+}
+
+.syntax--support.syntax--type,
+.syntax--keyword.syntax--control {
+  color: #f97583;
+}
+
+.syntax--entity.syntax--name.syntax--function {
+  color: #b392f0;
+}
+
+.syntax--entity.syntax--name.syntax--class, .syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #b392f0;
+}
+
+.syntax--variable.syntax--other.syntax--property.syntax--php {
+  color: #9ecbff;
+}
+
+.syntax--entity.syntax--name.syntax--function.syntax--sql {
+  color: #9ecbff;
+}
+
+.syntax--keyword.syntax--other.syntax--sql {
+  color: #f97583
+}
